@@ -1,0 +1,47 @@
+.bg-darkBlue{
+    background-color: #1d1d2b;
+}
+
+.vertical-align{
+    padding-top: 300px;
+}
+
+@font-face{
+    font-family: rocker;
+    src: url(../fonts/NewRocker-Regular.ttf);
+}
+
+.text-gothic{
+    font-family: rocker;
+    font-size: 450%;
+}
+
+@font-face{
+    font-family: grotesque;
+    src: url(../fonts/Eastman-Grotesque-Regular-trial.otf);
+}
+
+.text-grotesque{
+    font-family: grotesque;
+    font-size: 91%;
+}
+
+@font-face{
+    font-family: grotesque-bold;
+    src: url(../fonts/Eastman-Grotesque-Demi-Bold-trial.otf);
+}
+
+.text-grotesqueBold{
+    font-family: grotesque-bold;
+    font-size: 100%;
+}
+
+.text-grotesque2{
+    font-family: grotesque;
+    font-size: 85%;
+}
+
+.pt-7 {
+    padding-top: 7rem !important;
+  }
+

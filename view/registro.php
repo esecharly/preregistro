@@ -76,3 +76,5 @@
         </div>
     </div>
 </div>
+
+<script src="manager/manager_registro.js"></script>

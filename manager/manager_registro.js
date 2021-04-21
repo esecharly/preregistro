@@ -1,13 +1,13 @@
-$(document).ready(function (){
+$(document).ready(function() {
 
     function valida_vacios(){
         if ($('#registro_nombre').val() =="") {
-            swal('Upps', 'Ingresa tu nombre por favor', 'warning')
+            swal('Upps', 'Ingresa tu nombre por favor', 'warning');
             return false;
         }
     };
 
-    $('#btn_registro_usuario').click(function (){
-
+    $('#btn_registro_usuario').click(function() {
+        valida_vacios();
     });
 });

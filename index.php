@@ -25,7 +25,9 @@
                 case 'login':
                     require_once 'view/login.php';
                     break;        
-                
+                case 'registro':
+                    require_once 'view/registro.php';
+                    break; 
             }
         }else {
             require_once 'view/nav.php';

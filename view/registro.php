@@ -27,11 +27,12 @@
                 </div>
                 <div class="form-group">
                     <label for="registro_fecha_nacimiento" class="lead">Fecha de Nacimiento</label>
-                    <input type="date" class="form-control form-control-sm" id="registro_fecha_nacimiento" name="registro_fecha_nacimiento">
+                    <input type="date" class="form-control form-control-sm" id="registro_nacimiento" name="registro_fecha_nacimiento">
                 </div>
                 <div class="form-group">
                     <label for="registro_telefono" class="lead">Telefono de contacto (Preferente Movil)</label>
-                    <input type="number" class="form-control form-control-sm" id="registro_telefono" name="registro_telefono">
+                    <input type="number" min="0" step="1" class="form-control form-control-sm" id="registro_telefono" name="registro_telefono" oninput="validity.valid||(value='');">
+                    <!-- <input type="number" class="form-control form-control-sm" id="registro_telefono" name="registro_telefono"> -->
                 </div>
                 <div class="form-group">
                     <label for="registro_carrera" class="lead">Carrera de tu elección</label>
@@ -76,5 +77,6 @@
         </div>
     </div>
 </div>
+
 
 <script src="manager/manager_registro.js"></script>
